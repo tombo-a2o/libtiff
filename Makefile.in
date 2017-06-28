@@ -436,7 +436,7 @@ EXTRA_DIST = \
 	nmake.opt
 
 dist_doc_DATA = $(docfiles)
-SUBDIRS = port libtiff tools build contrib test man html
+SUBDIRS = port libtiff build
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = libtiff-4.pc
 
